@@ -1,0 +1,11 @@
+<% provide(:title, 'Help') %>
+<!DOCTYPE html>
+
+<html>
+<head> 
+<title> Ruby on Rails Project|<%= yield(:title) %> </title>
+</head>
+<body><h1>Help Page</h1>
+<p>This is a static help page for the sample page</p>
+</body>
+</html>
